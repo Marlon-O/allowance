@@ -1,0 +1,37 @@
+{
+  "name": "ai-usage-widget",
+  "version": "1.0.0",
+  "description": "A private, local desktop allowance monitor for Claude Code and Codex",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build",
+    "test": "vitest run",
+    "tauri": "tauri",
+    "desktop": "tauri dev",
+    "package": "tauri build",
+    "test:rust": "cargo test --manifest-path src-tauri/Cargo.toml"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^2",
+    "@tauri-apps/plugin-notification": "^2",
+    "lucide-react": "^0.468",
+    "react": "^19",
+    "react-dom": "^19"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.51",
+    "@tauri-apps/cli": "^2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@vitejs/plugin-react": "^4",
+    "typescript": "~5.7.3",
+    "vite": "^6",
+    "vitest": "^4.1.11"
+  },
+  "engines": {
+    "node": "^22.0.0 || >=24.0.0"
+  }
+}

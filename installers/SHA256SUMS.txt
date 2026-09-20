@@ -1,0 +1,2 @@
+07e6164a0258d36c5b0572d52c07ca07a4fae4406e5af20de58c02991124c2d8  installers/Allowance_macOS-arm64.dmg
+9c894f0d3b49c86fb67434a9881b9e1df46e1e25db6f141138077c8c2bd41fe8  installers/Allowance_windows-x64-setup.exe
